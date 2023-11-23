@@ -1,0 +1,631 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&family=Risque&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins&family=Raleway&family=Risque&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins&family=Raleway&family=Risque&family=Rosarivo&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Jacques+Francois&family=Poppins&family=Raleway&family=Risque&family=Rosarivo&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+.home {
+    width: 100%;
+    overflow-x: hidden;
+
+}
+
+.nav-item {
+    font-size: 20px;
+    margin-right: 15px;
+
+}
+
+.nav-item a {
+    color: #9C6A6D;
+    font-family: 'Poppins', sans-serif;
+}
+
+.nav-link:hover {
+    scale: 0.90;
+    transition: 1s;
+}
+
+.top {
+    width: 100%;
+    display: flex;
+
+}
+
+.first-content {
+    width: 20%;
+}
+
+.second-content {
+    width: 30%;
+    display: flex;
+    align-items: center;
+
+}
+
+.second-content p {
+    color: #9C6A6D;
+    font-family: Javanese Text;
+    font-size: 54px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 120.633%;
+    letter-spacing: 2.7px;
+}
+
+.third-content {
+    width: 50%;
+}
+
+.third-content img {
+    margin-left: 50px;
+}
+
+.mid {
+    width: 100%;
+    display: flex;
+}
+
+.left-content {
+    width: 50%;
+    position: relative;
+    z-index: -1;
+
+
+}
+
+.left-content p {
+    position: absolute;
+    left: 220px;
+    top: 140px;
+    color: #FFF;
+    font-family: Javanese Text;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 120.633%;
+    letter-spacing: 2.4px;
+    width: 50%;
+}
+
+.til {
+    position: absolute;
+    top: 500px;
+    color: #fff;
+    font-size: 55px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    font-family: Jacques Francois;
+    transform: rotate(-90deg);
+}
+
+.lum {
+    color: #461510;
+}
+
+.right-content {
+    width: 50%;
+}
+
+.coll {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+
+
+.first-coll {
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.first-coll img {
+    margin-left: 80px;
+    margin-top: 30px;
+
+}
+
+.first-coll p {
+    color: #774540;
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    font-family: Poppins;
+    margin-top: 50px;
+
+}
+
+.sec-coll button {
+    margin-top: 60px;
+    margin-right: 60px;
+    padding: 5px 15px;
+    background: #9C6A6D;
+    border: 1px solid #9C6A6D;
+    color: #F6D1CC;
+    font-family: Poppins;
+    font-size: 19px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    transition: 1s;
+
+}
+
+.sec-coll:hover {
+    scale: 0.95;
+}
+
+.shop {
+    width: 90%;
+    display: flex;
+    justify-content: space-between;
+    
+}
+
+.polish {
+    width: 100%;
+
+}
+
+.f-block {
+
+    display: flex;
+    justify-content: space-between;
+    justify-content: space-evenly;
+
+}
+
+.s-block {
+
+    display: flex;
+    justify-content: space-between;
+    justify-content: space-evenly;
+    margin-top: 30px;
+}
+
+.blog {
+    margin-top: 120px;
+    display: flex;
+    justify-content: center;
+
+}
+
+.f-blog {
+    text-align: center;
+}
+
+.f-blog p:first-child {
+    color: #774540;
+    font-family: 'Poppins';
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: normal;
+}
+
+.f-blog p:last-child {
+    color: #774540;
+    font-family: 'Poppins';
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.carousel {
+
+    width: 70%;
+    display: flex;
+    justify-content: center;
+    margin-left: 140px;
+
+}
+
+.bottom {
+    width: 100%;
+    margin-top: 130px;
+    margin-left: 40px;
+    display: flex;
+
+
+}
+
+.l-part {
+    width: 50%;
+    color: #9C6A6D;
+}
+
+.l-part h4 {
+    font-family: Poppins;
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: normal;
+    color: #774540;
+}
+
+.input {
+    position: relative;
+
+}
+
+.input input {
+    width: 281px;
+    height: 45px;
+    flex-shrink: 0;
+    border: 1px solid #9C6A6D;
+}
+
+.input input::placeholder {
+    color: #9C6A6D;
+}
+
+.input i {
+    position: absolute;
+    left: 260px;
+    top: 15px;
+}
+
+.r-part {
+    width: 50%;
+    margin-left: 200px;
+    position: relative;
+}
+
+.r-part p {
+    color: #9C6A6D;
+    font-family: Poppins;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    position: absolute;
+    bottom: 60px;
+}
+
+.r-part button {
+    width: 290px;
+    height: 60px;
+    flex-shrink: 0;
+    position: absolute;
+    bottom: 5px;
+    color: #9C6A6D;
+    background-color: #F5F5F5;
+    border: 1px solid #9C6A6D;
+}
+
+.r-part button:hover {
+    scale: 0.90;
+    transition: 1s;
+}
+
+.line {
+    color: #9C6A6D;
+    margin-top: 50px;
+}
+
+.footer {
+    width: 100%;
+    display: flex;
+}
+
+.lg {
+    width: 20%;
+    margin-left: 40px;
+}
+
+.last-content {
+    width: 50%;
+    margin-left: 290px;
+}
+
+.last-content h4 {
+    color: #9C6A6D;
+}
+
+.last-content i {
+    color: #9C6A6D;
+    margin-right: 8px;
+}
+
+.last-content i:hover {
+    transform: scaleY(0.25);
+    transition: 1s;
+
+}
+
+.last-part {
+    width: 30%;
+}
+
+.last-part li a {
+    text-decoration: none;
+    color: #9C6A6D;
+    font-family: 'poppins';
+}
+
+.copy{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family:ruby;
+    border-top:1px solid #9C6A6D;
+    
+}
+.copy p{
+    margin-right: 15px 0px;
+    margin-top: 10px;
+}
+
+
+@media(min-width:768px){
+    
+
+}
+
+@media(max-width:480px) {
+
+    .top {
+        display: flex;
+        flex-direction: column;
+        position: relative;
+
+    }
+
+    .second-content p {
+        font-size: 20px;
+        position: absolute;
+        top: 200px;
+
+        left: 150px;
+
+    }
+
+    .third-content {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .third-content img {
+        width: 250%;
+        margin-left: 85px;
+    }
+
+    .mid {
+        margin-top: 1px;
+        position: relative;
+    }
+
+    .left-content img {
+        width: 150%;
+        height: 40vh;
+    }
+
+    .left-content p {
+        position: absolute;
+        left: 80px;
+        font-size: 12px;
+        top: 30px;
+    }
+
+    .til {
+        position: absolute;
+        font-size: 12px;
+        top: 150px;
+
+    }
+
+    .right-content img {
+        width: 200px;
+    }
+
+    .coll {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .first-coll p {
+        font-size: 12px;
+        margin-left: 0px;
+    }
+
+    .first-coll img {
+        width: 90px;
+    }
+
+    .sec-coll button {
+        margin-top:10px;
+        margin-left: 70px;
+        padding: 0px 8px;
+    }
+
+    .shop {
+        display: flex;
+        flex-direction: column;
+        margin-top: 30px;
+        margin-left: 15px;
+
+    }
+
+    .s-img {
+        margin-top: 20px;
+    }
+
+    .t-img {
+        margin-top: 20px;
+    }
+
+    .fo-img {
+        margin-top: 20px;
+    }
+
+    .f-block {
+        display: flex;
+        flex-wrap: wrap;
+        margin-top:50px;
+        justify-content: space-around;
+    }
+
+    .s-block {
+        display: flex;
+        flex-wrap: wrap;
+        
+    }
+    .se-img{
+        margin-top: 20px;
+    }
+    .th-img{
+        margin-top: 20px;
+    }
+    .fou-img{
+        margin-top: 20px;
+    }
+
+   
+
+    .carousel {
+        margin-left: 40px;
+    }
+
+    .bottom {
+        margin-left: 80px;
+    }
+
+    .l-part h4 {
+        font-size: 20px;
+    }
+
+    .l-part p {
+        font-size: 12px;
+    }
+
+    .input {
+        position: relative;
+    }
+
+    .input input {
+        width: 170px;
+    }
+
+    .input i {
+        position: absolute;
+        left: 150px;
+    }
+
+    .r-part {
+        margin-top: 400px;
+        position: relative;
+    }
+
+    .r-part p {
+        margin-right: 140px;
+        position: absolute;
+        font-size: 20px;
+        right: 50px;
+        width: 170px;
+    }
+
+    .r-part button {
+        margin-right: 140px;
+        position: absolute;
+        font-size: 20px;
+        right: 70px;
+        width: 150px;
+    }
+
+    .footer {
+
+        display: flex;
+        flex-direction: column;
+    }
+
+    .lg img {
+
+        width: 200%;
+        margin-left: 60px;
+    }
+
+    .last-content {
+        margin-top: 60px;
+        margin-left: 100px;
+    }
+
+    .last-part {
+        margin-top: 70px;
+        margin-left: 100px;
+        width: 90%;
+    }
+    .copy p{
+       font-size: 10px;
+
+    }
+}
+
+ @media(min-width:375px) {
+    .sec-coll button {
+        margin-top: 20px;
+        margin-left: 90px;
+        padding: 0px 8px;
+    }
+
+    .shop {
+        margin-left: 60px;
+    }
+
+    .l-part {
+        margin-left: 40px;
+    }
+
+    .f-block {
+        margin-left: 20px;
+    }
+
+    .s-block {
+        margin-left: 20px;
+    }
+
+    .footer {
+        margin-left: 30px;
+    }
+}
+
+@media(min-width:425px) {
+    .sec-coll button {
+        margin-top: 20px;
+        margin-left: 120px;
+        padding: 0px 8px;
+    }
+
+    .shop {
+        margin-left: 80px;
+    }
+
+    .f-block {
+        margin-left: 30px;
+    }
+
+    .s-block {
+        margin-left: 30px;
+    }
+
+    .r-part {
+        margin-right: 30px;
+    }
+
+    .footer {
+        margin-left: 30px;
+    }
+} 
